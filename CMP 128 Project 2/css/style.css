@@ -1,0 +1,156 @@
+/* Start of body css*/
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+}
+/* End of body css*/
+
+/* Start of nav css*/
+nav{
+    background-color:rgb(156, 40, 50);
+    width: 100%;
+    border: 1px;
+    border-style: solid;
+    position: fixed;
+}
+
+.Navigation-Buttons{
+    display: block;
+    font-size: 1.5rem;
+    padding: 1%;
+}
+
+.Navigation-Buttons :hover{
+    background-color: rgb(71, 87, 122);
+}
+
+.Navigation-Buttons li{
+    float: right;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.Navigation-Buttons li a {
+    display: block;
+    color:rgb(240, 240, 240);
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+/* end of nav css*/
+
+/* Start of #About css*/
+#About{
+    background-color: rgb(40, 41, 43);
+    color: rgb(156, 40, 50);
+    float: none;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 6%;
+    padding-bottom: 5%;
+    clear: both;
+}
+
+#About h1{
+    color: rgb(240, 240, 240);
+}
+
+#About a{
+    color: rgb(240, 240, 240);
+}
+/* end of #About css*/
+
+/* Start of #Work css*/
+#Work{
+    background-color: rgb(71, 87, 122);
+    padding: 3%;
+    clear:both;
+    overflow: hidden;
+}
+
+#Work h1{
+    color: rgb(240, 240, 240);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+#grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.pictureLabel{
+    background-color: rgb(50, 56, 64);
+    text-align: center;
+    width: 100%;
+    color: rgb(240, 240, 240) ;
+    clear: both;
+    margin-bottom: 2%;
+
+}
+.projects{
+    background-color: rgb(50, 56, 64) ;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 4%;
+}
+
+.projects img{
+    flex-shrink: 0;
+    width: 100%;
+    clear: both;
+    height: 85%;   
+}
+
+.projects :hover{
+    cursor: pointer;
+}
+/* End of #Work css*/
+
+/* Start of #Contact css*/
+#Contact{
+    background-color: rgb(50, 56, 64);
+    clear:both;
+    border-style: solid;
+    border-color: rgb(50, 56, 64);
+    line-height: 90%;
+}
+
+#Contact h1{
+    color: rgb(240, 240, 240);
+    text-align: center;
+    margin-top: 11%;
+    font-size: 380%;
+}
+
+#Contact p{
+    color: rgb(240, 240, 240);
+    text-align: center;
+    margin-bottom: 10%;
+    font-style: italic;
+    font-stretch:extra-expanded;
+}
+
+#contactLinks{
+    margin: auto;
+    width: 20%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+#contactLinks a{
+    padding-left: 14px;
+}
+
+#contactLinks :hover{
+    transform: scale(1.5);
+}
+/* End of #Contact css*/
+
